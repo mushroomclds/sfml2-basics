@@ -11,16 +11,17 @@ class Game
         sf::RenderWindow* window;
         sf::VideoMode videoMode; 
         sf::Event ev;
+        sf::RectangleShape enemy;
  
         void initializeVariables();
         void initializeWindow();
+        void initializeEnemies();
     public:
         Game();
         virtual ~Game();
 
         const bool running() const;
         void pollEvents();
-
         void update();
         void render();
 };

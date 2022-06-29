@@ -2,7 +2,7 @@
 #include "game.h"
 
 int main(){
- 
+
     Game game;
  
     //game loop
@@ -12,4 +12,4 @@ int main(){
         game.render();  
     }
   
-}
+} 
